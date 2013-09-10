@@ -26,4 +26,21 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)rockies:(UIButton *)sender {
+
+    if(sender.tag==1){
+        _image.image=[UIImage imageNamed:@"rockies_logo.png"];
+        NSString *messageName = [[NSString alloc] initWithFormat:@"%@, I want another Rocktober!", _name.text];
+        _message.text=messageName;
+    }
+    if(sender.tag==2){
+        _image.image=[UIImage imageNamed:@"broncos_logo.png"];
+        NSString *messageName = [[NSString alloc] initWithFormat:@"Peyton all day, %@?", _name.text];
+        _message.text=messageName;
+    }
+
+}
+- (IBAction)byeByeTextField:(UITextField *)sender {
+    [sender resignFirstResponder];
+}
 @end

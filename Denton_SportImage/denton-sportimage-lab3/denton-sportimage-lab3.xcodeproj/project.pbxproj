@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D40F129617DF71AF004C4CDB /* broncos_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D40F129317DF71AF004C4CDB /* broncos_logo.png */; };
+		D40F129717DF71AF004C4CDB /* rockies_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D40F129417DF71AF004C4CDB /* rockies_logo.png */; };
+		D40F129817DF71AF004C4CDB /* co_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D40F129517DF71AF004C4CDB /* co_logo.png */; };
 		D4AFB47A17DF6F60005BC4C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4AFB47917DF6F60005BC4C5 /* UIKit.framework */; };
 		D4AFB47C17DF6F60005BC4C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4AFB47B17DF6F60005BC4C5 /* Foundation.framework */; };
 		D4AFB47E17DF6F60005BC4C5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4AFB47D17DF6F60005BC4C5 /* CoreGraphics.framework */; };
@@ -21,6 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D40F129317DF71AF004C4CDB /* broncos_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = broncos_logo.png; path = ../broncos_logo.png; sourceTree = "<group>"; };
+		D40F129417DF71AF004C4CDB /* rockies_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rockies_logo.png; path = ../rockies_logo.png; sourceTree = "<group>"; };
+		D40F129517DF71AF004C4CDB /* co_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = co_logo.png; path = ../co_logo.png; sourceTree = "<group>"; };
 		D4AFB47617DF6F60005BC4C5 /* denton-sportimage-lab3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "denton-sportimage-lab3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4AFB47917DF6F60005BC4C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D4AFB47B17DF6F60005BC4C5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -96,6 +102,9 @@
 		D4AFB48017DF6F60005BC4C5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D40F129317DF71AF004C4CDB /* broncos_logo.png */,
+				D40F129417DF71AF004C4CDB /* rockies_logo.png */,
+				D40F129517DF71AF004C4CDB /* co_logo.png */,
 				D4AFB48117DF6F60005BC4C5 /* denton-sportimage-lab3-Info.plist */,
 				D4AFB48217DF6F60005BC4C5 /* InfoPlist.strings */,
 				D4AFB48517DF6F60005BC4C5 /* main.m */,
@@ -164,6 +173,9 @@
 				D4AFB48E17DF6F60005BC4C5 /* Default@2x.png in Resources */,
 				D4AFB49017DF6F60005BC4C5 /* Default-568h@2x.png in Resources */,
 				D4AFB49617DF6F60005BC4C5 /* MADViewController.xib in Resources */,
+				D40F129617DF71AF004C4CDB /* broncos_logo.png in Resources */,
+				D40F129717DF71AF004C4CDB /* rockies_logo.png in Resources */,
+				D40F129817DF71AF004C4CDB /* co_logo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +313,7 @@
 				D4AFB49B17DF6F60005BC4C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
