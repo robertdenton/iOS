@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4AFB47A17DF6F60005BC4C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4AFB47917DF6F60005BC4C5 /* UIKit.framework */; };
+		D4AFB47C17DF6F60005BC4C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4AFB47B17DF6F60005BC4C5 /* Foundation.framework */; };
+		D4AFB47E17DF6F60005BC4C5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4AFB47D17DF6F60005BC4C5 /* CoreGraphics.framework */; };
+		D4AFB48417DF6F60005BC4C5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4AFB48217DF6F60005BC4C5 /* InfoPlist.strings */; };
+		D4AFB48617DF6F60005BC4C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AFB48517DF6F60005BC4C5 /* main.m */; };
+		D4AFB48A17DF6F60005BC4C5 /* MADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AFB48917DF6F60005BC4C5 /* MADAppDelegate.m */; };
+		D4AFB48C17DF6F60005BC4C5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D4AFB48B17DF6F60005BC4C5 /* Default.png */; };
+		D4AFB48E17DF6F60005BC4C5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4AFB48D17DF6F60005BC4C5 /* Default@2x.png */; };
+		D4AFB49017DF6F60005BC4C5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4AFB48F17DF6F60005BC4C5 /* Default-568h@2x.png */; };
+		D4AFB49317DF6F60005BC4C5 /* MADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4AFB49217DF6F60005BC4C5 /* MADViewController.m */; };
+		D4AFB49617DF6F60005BC4C5 /* MADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4AFB49417DF6F60005BC4C5 /* MADViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D4AFB47617DF6F60005BC4C5 /* denton-sportimage-lab3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "denton-sportimage-lab3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4AFB47917DF6F60005BC4C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D4AFB47B17DF6F60005BC4C5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D4AFB47D17DF6F60005BC4C5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D4AFB48117DF6F60005BC4C5 /* denton-sportimage-lab3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "denton-sportimage-lab3-Info.plist"; sourceTree = "<group>"; };
+		D4AFB48317DF6F60005BC4C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D4AFB48517DF6F60005BC4C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4AFB48717DF6F60005BC4C5 /* denton-sportimage-lab3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "denton-sportimage-lab3-Prefix.pch"; sourceTree = "<group>"; };
+		D4AFB48817DF6F60005BC4C5 /* MADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADAppDelegate.h; sourceTree = "<group>"; };
+		D4AFB48917DF6F60005BC4C5 /* MADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADAppDelegate.m; sourceTree = "<group>"; };
+		D4AFB48B17DF6F60005BC4C5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D4AFB48D17DF6F60005BC4C5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D4AFB48F17DF6F60005BC4C5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D4AFB49117DF6F60005BC4C5 /* MADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADViewController.h; sourceTree = "<group>"; };
+		D4AFB49217DF6F60005BC4C5 /* MADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADViewController.m; sourceTree = "<group>"; };
+		D4AFB49517DF6F60005BC4C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MADViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4AFB47317DF6F60005BC4C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4AFB47A17DF6F60005BC4C5 /* UIKit.framework in Frameworks */,
+				D4AFB47C17DF6F60005BC4C5 /* Foundation.framework in Frameworks */,
+				D4AFB47E17DF6F60005BC4C5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4AFB46D17DF6F60005BC4C5 = {
+			isa = PBXGroup;
+			children = (
+				D4AFB47F17DF6F60005BC4C5 /* denton-sportimage-lab3 */,
+				D4AFB47817DF6F60005BC4C5 /* Frameworks */,
+				D4AFB47717DF6F60005BC4C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4AFB47717DF6F60005BC4C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4AFB47617DF6F60005BC4C5 /* denton-sportimage-lab3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4AFB47817DF6F60005BC4C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4AFB47917DF6F60005BC4C5 /* UIKit.framework */,
+				D4AFB47B17DF6F60005BC4C5 /* Foundation.framework */,
+				D4AFB47D17DF6F60005BC4C5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4AFB47F17DF6F60005BC4C5 /* denton-sportimage-lab3 */ = {
+			isa = PBXGroup;
+			children = (
+				D4AFB48817DF6F60005BC4C5 /* MADAppDelegate.h */,
+				D4AFB48917DF6F60005BC4C5 /* MADAppDelegate.m */,
+				D4AFB49117DF6F60005BC4C5 /* MADViewController.h */,
+				D4AFB49217DF6F60005BC4C5 /* MADViewController.m */,
+				D4AFB49417DF6F60005BC4C5 /* MADViewController.xib */,
+				D4AFB48017DF6F60005BC4C5 /* Supporting Files */,
+			);
+			path = "denton-sportimage-lab3";
+			sourceTree = "<group>";
+		};
+		D4AFB48017DF6F60005BC4C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4AFB48117DF6F60005BC4C5 /* denton-sportimage-lab3-Info.plist */,
+				D4AFB48217DF6F60005BC4C5 /* InfoPlist.strings */,
+				D4AFB48517DF6F60005BC4C5 /* main.m */,
+				D4AFB48717DF6F60005BC4C5 /* denton-sportimage-lab3-Prefix.pch */,
+				D4AFB48B17DF6F60005BC4C5 /* Default.png */,
+				D4AFB48D17DF6F60005BC4C5 /* Default@2x.png */,
+				D4AFB48F17DF6F60005BC4C5 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4AFB47517DF6F60005BC4C5 /* denton-sportimage-lab3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4AFB49917DF6F60005BC4C5 /* Build configuration list for PBXNativeTarget "denton-sportimage-lab3" */;
+			buildPhases = (
+				D4AFB47217DF6F60005BC4C5 /* Sources */,
+				D4AFB47317DF6F60005BC4C5 /* Frameworks */,
+				D4AFB47417DF6F60005BC4C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "denton-sportimage-lab3";
+			productName = "denton-sportimage-lab3";
+			productReference = D4AFB47617DF6F60005BC4C5 /* denton-sportimage-lab3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4AFB46E17DF6F60005BC4C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MAD;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Rob Denton";
+			};
+			buildConfigurationList = D4AFB47117DF6F60005BC4C5 /* Build configuration list for PBXProject "denton-sportimage-lab3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D4AFB46D17DF6F60005BC4C5;
+			productRefGroup = D4AFB47717DF6F60005BC4C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4AFB47517DF6F60005BC4C5 /* denton-sportimage-lab3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4AFB47417DF6F60005BC4C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4AFB48417DF6F60005BC4C5 /* InfoPlist.strings in Resources */,
+				D4AFB48C17DF6F60005BC4C5 /* Default.png in Resources */,
+				D4AFB48E17DF6F60005BC4C5 /* Default@2x.png in Resources */,
+				D4AFB49017DF6F60005BC4C5 /* Default-568h@2x.png in Resources */,
+				D4AFB49617DF6F60005BC4C5 /* MADViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4AFB47217DF6F60005BC4C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4AFB48617DF6F60005BC4C5 /* main.m in Sources */,
+				D4AFB48A17DF6F60005BC4C5 /* MADAppDelegate.m in Sources */,
+				D4AFB49317DF6F60005BC4C5 /* MADViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D4AFB48217DF6F60005BC4C5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4AFB48317DF6F60005BC4C5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D4AFB49417DF6F60005BC4C5 /* MADViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D4AFB49517DF6F60005BC4C5 /* en */,
+			);
+			name = MADViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D4AFB49717DF6F60005BC4C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D4AFB49817DF6F60005BC4C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4AFB49A17DF6F60005BC4C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "denton-sportimage-lab3/denton-sportimage-lab3-Prefix.pch";
+				INFOPLIST_FILE = "denton-sportimage-lab3/denton-sportimage-lab3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D4AFB49B17DF6F60005BC4C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "denton-sportimage-lab3/denton-sportimage-lab3-Prefix.pch";
+				INFOPLIST_FILE = "denton-sportimage-lab3/denton-sportimage-lab3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4AFB47117DF6F60005BC4C5 /* Build configuration list for PBXProject "denton-sportimage-lab3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4AFB49717DF6F60005BC4C5 /* Debug */,
+				D4AFB49817DF6F60005BC4C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4AFB49917DF6F60005BC4C5 /* Build configuration list for PBXNativeTarget "denton-sportimage-lab3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4AFB49A17DF6F60005BC4C5 /* Debug */,
+				D4AFB49B17DF6F60005BC4C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4AFB46E17DF6F60005BC4C5 /* Project object */;
+}
