@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D42AC14D17E12A64004BCE00 /* hwBig2.png in Resources */ = {isa = PBXBuildFile; fileRef = D42AC14C17E12A64004BCE00 /* hwBig2.png */; };
+		D42AC14F17E12A66004BCE00 /* hwSmall2.png in Resources */ = {isa = PBXBuildFile; fileRef = D42AC14E17E12A66004BCE00 /* hwSmall2.png */; };
 		D4F1BE8817D63CBA009B4503 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4F1BE8717D63CBA009B4503 /* UIKit.framework */; };
 		D4F1BE8A17D63CBA009B4503 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4F1BE8917D63CBA009B4503 /* Foundation.framework */; };
 		D4F1BE8C17D63CBA009B4503 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4F1BE8B17D63CBA009B4503 /* CoreGraphics.framework */; };
@@ -18,11 +20,11 @@
 		D4F1BE9E17D63CBB009B4503 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4F1BE9D17D63CBB009B4503 /* Default-568h@2x.png */; };
 		D4F1BEA117D63CBB009B4503 /* MADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F1BEA017D63CBB009B4503 /* MADViewController.m */; };
 		D4F1BEA417D63CBB009B4503 /* MADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4F1BEA217D63CBB009B4503 /* MADViewController.xib */; };
-		D4F505CB17E0FFBD00EDE802 /* hwSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = D4F505CA17E0FFBD00EDE802 /* hwSmall.png */; };
-		D4F505CD17E0FFC100EDE802 /* hwBig.png in Resources */ = {isa = PBXBuildFile; fileRef = D4F505CC17E0FFC100EDE802 /* hwBig.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D42AC14C17E12A64004BCE00 /* hwBig2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hwBig2.png; sourceTree = "<group>"; };
+		D42AC14E17E12A66004BCE00 /* hwSmall2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hwSmall2.png; sourceTree = "<group>"; };
 		D4F1BE8417D63CBA009B4503 /* HelloWorld2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4F1BE8717D63CBA009B4503 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D4F1BE8917D63CBA009B4503 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -39,8 +41,6 @@
 		D4F1BE9F17D63CBB009B4503 /* MADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADViewController.h; sourceTree = "<group>"; };
 		D4F1BEA017D63CBB009B4503 /* MADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADViewController.m; sourceTree = "<group>"; };
 		D4F1BEA317D63CBB009B4503 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MADViewController.xib; sourceTree = "<group>"; };
-		D4F505CA17E0FFBD00EDE802 /* hwSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hwSmall.png; sourceTree = "<group>"; };
-		D4F505CC17E0FFC100EDE802 /* hwBig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hwBig.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +60,8 @@
 		D4F1BE7B17D63CB9009B4503 = {
 			isa = PBXGroup;
 			children = (
-				D4F505CC17E0FFC100EDE802 /* hwBig.png */,
-				D4F505CA17E0FFBD00EDE802 /* hwSmall.png */,
+				D42AC14E17E12A66004BCE00 /* hwSmall2.png */,
+				D42AC14C17E12A64004BCE00 /* hwBig2.png */,
 				D4F1BE8D17D63CBA009B4503 /* HelloWorld2 */,
 				D4F1BE8617D63CBA009B4503 /* Frameworks */,
 				D4F1BE8517D63CBA009B4503 /* Products */,
@@ -170,8 +170,8 @@
 				D4F1BE9C17D63CBB009B4503 /* Default@2x.png in Resources */,
 				D4F1BE9E17D63CBB009B4503 /* Default-568h@2x.png in Resources */,
 				D4F1BEA417D63CBB009B4503 /* MADViewController.xib in Resources */,
-				D4F505CB17E0FFBD00EDE802 /* hwSmall.png in Resources */,
-				D4F505CD17E0FFC100EDE802 /* hwBig.png in Resources */,
+				D42AC14D17E12A64004BCE00 /* hwBig2.png in Resources */,
+				D42AC14F17E12A66004BCE00 /* hwSmall2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
