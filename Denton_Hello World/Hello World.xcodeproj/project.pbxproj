@@ -18,8 +18,6 @@
 		ACC3F61917CFA0DA00CB717A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ACC3F61817CFA0DA00CB717A /* Default-568h@2x.png */; };
 		ACC3F61C17CFA0DA00CB717A /* MADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC3F61B17CFA0DA00CB717A /* MADViewController.m */; };
 		ACC3F61F17CFA0DA00CB717A /* MADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACC3F61D17CFA0DA00CB717A /* MADViewController.xib */; };
-		ACC3F62617CFAF8100CB717A /* hwBig.png in Resources */ = {isa = PBXBuildFile; fileRef = ACC3F62517CFAF8100CB717A /* hwBig.png */; };
-		ACC3F62817CFAF8900CB717A /* hwSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = ACC3F62717CFAF8900CB717A /* hwSmall.png */; };
 		ACC3F62A17CFAFBC00CB717A /* hwBig.png in Resources */ = {isa = PBXBuildFile; fileRef = ACC3F62917CFAFBC00CB717A /* hwBig.png */; };
 		ACC3F62C17CFAFD800CB717A /* hwSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = ACC3F62B17CFAFD800CB717A /* hwSmall.png */; };
 /* End PBXBuildFile section */
@@ -41,8 +39,6 @@
 		ACC3F61A17CFA0DA00CB717A /* MADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADViewController.h; sourceTree = "<group>"; };
 		ACC3F61B17CFA0DA00CB717A /* MADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADViewController.m; sourceTree = "<group>"; };
 		ACC3F61E17CFA0DA00CB717A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MADViewController.xib; sourceTree = "<group>"; };
-		ACC3F62517CFAF8100CB717A /* hwBig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hwBig.png; sourceTree = "<group>"; };
-		ACC3F62717CFAF8900CB717A /* hwSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hwSmall.png; sourceTree = "<group>"; };
 		ACC3F62917CFAFBC00CB717A /* hwBig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hwBig.png; sourceTree = "<group>"; };
 		ACC3F62B17CFAFD800CB717A /* hwSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hwSmall.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,8 +62,6 @@
 			children = (
 				ACC3F62B17CFAFD800CB717A /* hwSmall.png */,
 				ACC3F62917CFAFBC00CB717A /* hwBig.png */,
-				ACC3F62717CFAF8900CB717A /* hwSmall.png */,
-				ACC3F62517CFAF8100CB717A /* hwBig.png */,
 				ACC3F60817CFA0DA00CB717A /* Hello World */,
 				ACC3F60117CFA0DA00CB717A /* Frameworks */,
 				ACC3F60017CFA0DA00CB717A /* Products */,
@@ -176,8 +170,6 @@
 				ACC3F61717CFA0DA00CB717A /* Default@2x.png in Resources */,
 				ACC3F61917CFA0DA00CB717A /* Default-568h@2x.png in Resources */,
 				ACC3F61F17CFA0DA00CB717A /* MADViewController.xib in Resources */,
-				ACC3F62617CFAF8100CB717A /* hwBig.png in Resources */,
-				ACC3F62817CFAF8900CB717A /* hwSmall.png in Resources */,
 				ACC3F62A17CFAFBC00CB717A /* hwBig.png in Resources */,
 				ACC3F62C17CFAFD800CB717A /* hwSmall.png in Resources */,
 			);
@@ -315,6 +307,7 @@
 				ACC3F62417CFA0DA00CB717A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
