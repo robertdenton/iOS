@@ -43,9 +43,8 @@
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
-    self.viewController.imageContainer.image=[UIImage imageNamed:@"rdent.png"];
-    self.viewController.place.text = @"About";
-    self.viewController.caption.text = @"Rob is a senior journalism student at CU-Boulder and the editor-in-chief at the CU Independent. You can find him on Twitter at @robertrdenton.";
+
+    //I don't need to reset the picker, image and text each time because it's not like the tip calculator. Though, I did think through how to do it.
     
 }
 
