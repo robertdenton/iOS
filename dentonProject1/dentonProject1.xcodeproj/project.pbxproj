@@ -327,6 +327,7 @@
 				D485EE4017F7BFD200ADB9A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

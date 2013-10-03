@@ -37,11 +37,16 @@
 - (void)applicationWillEnterForeground:(UIApplication *)application
 {
     // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+    
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    self.viewController.imageContainer.image=[UIImage imageNamed:@"rdent.png"];
+    self.viewController.place.text = @"About";
+    self.viewController.caption.text = @"Rob is a senior journalism student at CU-Boulder and the editor-in-chief at the CU Independent. You can find him on Twitter at @robertrdenton.";
+    
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application
