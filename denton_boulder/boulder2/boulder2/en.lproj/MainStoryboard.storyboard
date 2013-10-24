@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12F45" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="4">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--First View Controller - First-->
+        <scene sceneID="11">
+            <objects>
+                <viewController id="2" customClass="MADFirstViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="17">
+                        <rect key="frame" x="0.0" y="20" width="768" height="955"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="boulderflatirons.png" translatesAutoresizingMaskIntoConstraints="NO" id="9Ur-HM-HS3"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Boulder, CO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OSW-mI-Bc9">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="149" id="mnN-N3-5CX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="9Ur-HM-HS3" firstAttribute="top" secondItem="17" secondAttribute="top" type="default" id="CRl-Zk-Tjl"/>
+                            <constraint firstItem="9Ur-HM-HS3" firstAttribute="leading" secondItem="17" secondAttribute="leading" type="default" id="E9b-po-0Wy"/>
+                            <constraint firstAttribute="trailing" secondItem="OSW-mI-Bc9" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="MG4-UB-FCK"/>
+                            <constraint firstItem="OSW-mI-Bc9" firstAttribute="top" secondItem="17" secondAttribute="top" type="default" id="Mhc-ig-dF9"/>
+                            <constraint firstItem="OSW-mI-Bc9" firstAttribute="leading" secondItem="17" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="yAK-ek-taX"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="First" image="first" id="7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="10" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2937" y="114"/>
+        </scene>
+        <!--Second View Controller - Second-->
+        <scene sceneID="13">
+            <objects>
+                <viewController id="3" customClass="MADSecondViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="16">
+                        <rect key="frame" x="0.0" y="20" width="768" height="955"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Name:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XWQ-oN-FEX">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Email:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ni1-tX-0m8">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RFi-gj-ov7">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="285" id="I3G-Fc-ukC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="c3p-Rh-f9g">
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Question:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LpW-Y0-hsn">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5T8-SE-Hk3">
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="209" id="net-xo-DZP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hPC-Qh-xp0">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Submit">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="submitQuestion:" destination="3" eventType="touchUpInside" id="oea-AQ-uUs"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="hPC-Qh-xp0" firstAttribute="centerX" secondItem="16" secondAttribute="centerX" type="default" id="C9s-V4-2EY"/>
+                            <constraint firstItem="XWQ-oN-FEX" firstAttribute="leading" secondItem="16" secondAttribute="leading" constant="185" id="HPA-Wq-ete"/>
+                            <constraint firstItem="c3p-Rh-f9g" firstAttribute="top" secondItem="16" secondAttribute="top" constant="322" id="WV1-vO-0pJ"/>
+                            <constraint firstItem="LpW-Y0-hsn" firstAttribute="centerY" secondItem="16" secondAttribute="centerY" type="default" id="cSi-ch-824"/>
+                            <constraint firstItem="RFi-gj-ov7" firstAttribute="leading" secondItem="16" secondAttribute="leading" constant="322" id="gJR-lb-7O3"/>
+                            <constraint firstItem="LpW-Y0-hsn" firstAttribute="leading" secondItem="Ni1-tX-0m8" secondAttribute="leading" type="default" id="hQd-8G-ORk"/>
+                            <constraint firstItem="c3p-Rh-f9g" firstAttribute="leading" secondItem="RFi-gj-ov7" secondAttribute="leading" type="default" id="iI2-FF-hQd"/>
+                            <constraint firstItem="RFi-gj-ov7" firstAttribute="baseline" secondItem="XWQ-oN-FEX" secondAttribute="baseline" type="default" id="khL-nF-vXC"/>
+                            <constraint firstAttribute="bottom" secondItem="hPC-Qh-xp0" secondAttribute="bottom" constant="91" id="ozK-ra-YcM"/>
+                            <constraint firstItem="5T8-SE-Hk3" firstAttribute="trailing" secondItem="c3p-Rh-f9g" secondAttribute="trailing" type="default" id="sKU-LE-xgY"/>
+                            <constraint firstItem="Ni1-tX-0m8" firstAttribute="top" secondItem="16" secondAttribute="top" constant="326" id="u5J-9M-dVc"/>
+                            <constraint firstItem="Ni1-tX-0m8" firstAttribute="leading" secondItem="XWQ-oN-FEX" secondAttribute="leading" type="default" id="uGT-MQ-Qdn"/>
+                            <constraint firstItem="RFi-gj-ov7" firstAttribute="top" secondItem="16" secondAttribute="top" constant="178" id="ubH-PX-PNL"/>
+                            <constraint firstItem="5T8-SE-Hk3" firstAttribute="top" secondItem="LpW-Y0-hsn" secondAttribute="top" type="default" id="vIt-uT-PEk"/>
+                            <constraint firstItem="5T8-SE-Hk3" firstAttribute="leading" secondItem="c3p-Rh-f9g" secondAttribute="leading" type="default" id="xJ1-9l-7t4"/>
+                            <constraint firstItem="c3p-Rh-f9g" firstAttribute="trailing" secondItem="RFi-gj-ov7" secondAttribute="trailing" type="default" id="y9E-ec-y8t"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Second" image="second" id="6"/>
+                    <connections>
+                        <outlet property="emailTextField" destination="c3p-Rh-f9g" id="JEd-gq-tBZ"/>
+                        <outlet property="nameTextField" destination="RFi-gj-ov7" id="Pot-7x-jT8"/>
+                        <outlet property="questionTextView" destination="5T8-SE-Hk3" id="T5Z-9s-aIX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="12" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3042" y="1284"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="15">
+            <objects>
+                <tabBarController id="4" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="5">
+                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="2" kind="relationship" relationship="viewControllers" id="27"/>
+                        <segue destination="3" kind="relationship" relationship="viewControllers" id="28"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="14" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2023" y="718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="boulderflatirons.png" width="768" height="955"/>
+        <image name="first" width="16" height="16"/>
+        <image name="second" width="16" height="16"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
