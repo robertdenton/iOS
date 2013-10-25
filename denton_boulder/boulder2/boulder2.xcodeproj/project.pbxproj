@@ -24,6 +24,12 @@
 		D46DAD0D1810618800D85090 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = D46DAD0C1810618800D85090 /* second.png */; };
 		D46DAD0F1810618800D85090 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D46DAD0E1810618800D85090 /* second@2x.png */; };
 		D46DAD161810621200D85090 /* boulderflatirons.png in Resources */ = {isa = PBXBuildFile; fileRef = D46DAD151810621200D85090 /* boulderflatirons.png */; };
+		D4F4D817181A2627005611AE /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F4D816181A2627005611AE /* WebViewController.m */; };
+		D4F4D819181A2997005611AE /* 28-star.png in Resources */ = {isa = PBXBuildFile; fileRef = D4F4D818181A2997005611AE /* 28-star.png */; };
+		D4F4D81C181A299E005611AE /* 07-map-marker.png in Resources */ = {isa = PBXBuildFile; fileRef = D4F4D81A181A299E005611AE /* 07-map-marker.png */; };
+		D4F4D81D181A299E005611AE /* 18-envelope.png in Resources */ = {isa = PBXBuildFile; fileRef = D4F4D81B181A299E005611AE /* 18-envelope.png */; };
+		D4F4D81F181A2C7B005611AE /* tabbar.png in Resources */ = {isa = PBXBuildFile; fileRef = D4F4D81E181A2C7B005611AE /* tabbar.png */; };
+		D4F4D821181A2C7D005611AE /* tabbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4F4D820181A2C7D005611AE /* tabbar@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +56,13 @@
 		D46DAD0C1810618800D85090 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		D46DAD0E1810618800D85090 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		D46DAD151810621200D85090 /* boulderflatirons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boulderflatirons.png; sourceTree = "<group>"; };
+		D4F4D815181A2627005611AE /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		D4F4D816181A2627005611AE /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		D4F4D818181A2997005611AE /* 28-star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "28-star.png"; sourceTree = "<group>"; };
+		D4F4D81A181A299E005611AE /* 07-map-marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "07-map-marker.png"; sourceTree = "<group>"; };
+		D4F4D81B181A299E005611AE /* 18-envelope.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "18-envelope.png"; sourceTree = "<group>"; };
+		D4F4D81E181A2C7B005611AE /* tabbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabbar.png; sourceTree = "<group>"; };
+		D4F4D820181A2C7D005611AE /* tabbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +82,8 @@
 		D46DACDB1810618800D85090 = {
 			isa = PBXGroup;
 			children = (
+				D4F4D820181A2C7D005611AE /* tabbar@2x.png */,
+				D4F4D81E181A2C7B005611AE /* tabbar.png */,
 				D46DACED1810618800D85090 /* boulder2 */,
 				D46DACE61810618800D85090 /* Frameworks */,
 				D46DACE51810618800D85090 /* Products */,
@@ -99,6 +114,8 @@
 				D46DACF61810618800D85090 /* MADAppDelegate.h */,
 				D46DACF71810618800D85090 /* MADAppDelegate.m */,
 				D46DACFF1810618800D85090 /* MainStoryboard.storyboard */,
+				D4F4D815181A2627005611AE /* WebViewController.h */,
+				D4F4D816181A2627005611AE /* WebViewController.m */,
 				D46DAD021810618800D85090 /* MADFirstViewController.h */,
 				D46DAD031810618800D85090 /* MADFirstViewController.m */,
 				D46DAD051810618800D85090 /* first.png */,
@@ -115,6 +132,9 @@
 		D46DACEE1810618800D85090 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D4F4D81A181A299E005611AE /* 07-map-marker.png */,
+				D4F4D81B181A299E005611AE /* 18-envelope.png */,
+				D4F4D818181A2997005611AE /* 28-star.png */,
 				D46DAD151810621200D85090 /* boulderflatirons.png */,
 				D46DACEF1810618800D85090 /* boulder2-Info.plist */,
 				D46DACF01810618800D85090 /* InfoPlist.strings */,
@@ -189,6 +209,11 @@
 				D46DAD0D1810618800D85090 /* second.png in Resources */,
 				D46DAD0F1810618800D85090 /* second@2x.png in Resources */,
 				D46DAD161810621200D85090 /* boulderflatirons.png in Resources */,
+				D4F4D819181A2997005611AE /* 28-star.png in Resources */,
+				D4F4D81C181A299E005611AE /* 07-map-marker.png in Resources */,
+				D4F4D81D181A299E005611AE /* 18-envelope.png in Resources */,
+				D4F4D81F181A2C7B005611AE /* tabbar.png in Resources */,
+				D4F4D821181A2C7D005611AE /* tabbar@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +228,7 @@
 				D46DACF81810618800D85090 /* MADAppDelegate.m in Sources */,
 				D46DAD041810618800D85090 /* MADFirstViewController.m in Sources */,
 				D46DAD0B1810618800D85090 /* MADSecondViewController.m in Sources */,
+				D4F4D817181A2627005611AE /* WebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +353,7 @@
 				D46DAD141810618800D85090 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
