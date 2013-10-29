@@ -23,18 +23,15 @@
     return self;
 }*/
 
--(void)viewDidAppear:(BOOL)animated{
-    //    _continentName.text=_name;
-    //    _countryNumber.text=_number;
+-(void)viewWillAppear:(BOOL)animated{
+    _continentName.text=_name;
+    _countryNumber.text=_number;
     //    For whatever reason these don't work in viewDidAppear, they require input from the user (click) to display, however, in viewDidLoad they load and refresh correctly
 }
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-       _continentName.text=_name;
-       _countryNumber.text=_number;
-
 
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
