@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D49F07BE1822ACFE0077D7FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49F07BD1822ACFE0077D7FF /* UIKit.framework */; };
+		D49F07C01822ACFE0077D7FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49F07BF1822ACFE0077D7FF /* Foundation.framework */; };
+		D49F07C21822ACFE0077D7FF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D49F07C11822ACFE0077D7FF /* CoreGraphics.framework */; };
+		D49F07C81822ACFE0077D7FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D49F07C61822ACFE0077D7FF /* InfoPlist.strings */; };
+		D49F07CA1822ACFE0077D7FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D49F07C91822ACFE0077D7FF /* main.m */; };
+		D49F07CE1822ACFE0077D7FF /* MADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D49F07CD1822ACFE0077D7FF /* MADAppDelegate.m */; };
+		D49F07D01822ACFE0077D7FF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D49F07CF1822ACFE0077D7FF /* Default.png */; };
+		D49F07D21822ACFE0077D7FF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D49F07D11822ACFE0077D7FF /* Default@2x.png */; };
+		D49F07D41822ACFE0077D7FF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D49F07D31822ACFE0077D7FF /* Default-568h@2x.png */; };
+		D49F07D71822ACFE0077D7FF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D49F07D51822ACFE0077D7FF /* MainStoryboard.storyboard */; };
+		D49F07DA1822ACFE0077D7FF /* MADMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D49F07D91822ACFE0077D7FF /* MADMasterViewController.m */; };
+		D49F07DD1822ACFE0077D7FF /* MADDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D49F07DC1822ACFE0077D7FF /* MADDetailViewController.m */; };
+		D49F07E41822AD410077D7FF /* harrypotter.plist in Resources */ = {isa = PBXBuildFile; fileRef = D49F07E31822AD410077D7FF /* harrypotter.plist */; };
+		D49F07E61822BC060077D7FF /* hp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D49F07E51822BC060077D7FF /* hp@2x.png */; };
+		D49F07E81822BC090077D7FF /* hp.png in Resources */ = {isa = PBXBuildFile; fileRef = D49F07E71822BC090077D7FF /* hp.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D49F07BA1822ACFE0077D7FF /* harrypotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = harrypotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D49F07BD1822ACFE0077D7FF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D49F07BF1822ACFE0077D7FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D49F07C11822ACFE0077D7FF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D49F07C51822ACFE0077D7FF /* harrypotter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "harrypotter-Info.plist"; sourceTree = "<group>"; };
+		D49F07C71822ACFE0077D7FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D49F07C91822ACFE0077D7FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D49F07CB1822ACFE0077D7FF /* harrypotter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "harrypotter-Prefix.pch"; sourceTree = "<group>"; };
+		D49F07CC1822ACFE0077D7FF /* MADAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADAppDelegate.h; sourceTree = "<group>"; };
+		D49F07CD1822ACFE0077D7FF /* MADAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADAppDelegate.m; sourceTree = "<group>"; };
+		D49F07CF1822ACFE0077D7FF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D49F07D11822ACFE0077D7FF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D49F07D31822ACFE0077D7FF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D49F07D61822ACFE0077D7FF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		D49F07D81822ACFE0077D7FF /* MADMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADMasterViewController.h; sourceTree = "<group>"; };
+		D49F07D91822ACFE0077D7FF /* MADMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADMasterViewController.m; sourceTree = "<group>"; };
+		D49F07DB1822ACFE0077D7FF /* MADDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADDetailViewController.h; sourceTree = "<group>"; };
+		D49F07DC1822ACFE0077D7FF /* MADDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADDetailViewController.m; sourceTree = "<group>"; };
+		D49F07E31822AD410077D7FF /* harrypotter.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = harrypotter.plist; sourceTree = "<group>"; };
+		D49F07E51822BC060077D7FF /* hp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hp@2x.png"; sourceTree = "<group>"; };
+		D49F07E71822BC090077D7FF /* hp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hp.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D49F07B71822ACFE0077D7FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D49F07BE1822ACFE0077D7FF /* UIKit.framework in Frameworks */,
+				D49F07C01822ACFE0077D7FF /* Foundation.framework in Frameworks */,
+				D49F07C21822ACFE0077D7FF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D49F07B11822ACFE0077D7FF = {
+			isa = PBXGroup;
+			children = (
+				D49F07E71822BC090077D7FF /* hp.png */,
+				D49F07E51822BC060077D7FF /* hp@2x.png */,
+				D49F07C31822ACFE0077D7FF /* harrypotter */,
+				D49F07BC1822ACFE0077D7FF /* Frameworks */,
+				D49F07BB1822ACFE0077D7FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D49F07BB1822ACFE0077D7FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D49F07BA1822ACFE0077D7FF /* harrypotter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D49F07BC1822ACFE0077D7FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D49F07BD1822ACFE0077D7FF /* UIKit.framework */,
+				D49F07BF1822ACFE0077D7FF /* Foundation.framework */,
+				D49F07C11822ACFE0077D7FF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D49F07C31822ACFE0077D7FF /* harrypotter */ = {
+			isa = PBXGroup;
+			children = (
+				D49F07CC1822ACFE0077D7FF /* MADAppDelegate.h */,
+				D49F07CD1822ACFE0077D7FF /* MADAppDelegate.m */,
+				D49F07D51822ACFE0077D7FF /* MainStoryboard.storyboard */,
+				D49F07D81822ACFE0077D7FF /* MADMasterViewController.h */,
+				D49F07D91822ACFE0077D7FF /* MADMasterViewController.m */,
+				D49F07DB1822ACFE0077D7FF /* MADDetailViewController.h */,
+				D49F07DC1822ACFE0077D7FF /* MADDetailViewController.m */,
+				D49F07C41822ACFE0077D7FF /* Supporting Files */,
+			);
+			path = harrypotter;
+			sourceTree = "<group>";
+		};
+		D49F07C41822ACFE0077D7FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D49F07E31822AD410077D7FF /* harrypotter.plist */,
+				D49F07C51822ACFE0077D7FF /* harrypotter-Info.plist */,
+				D49F07C61822ACFE0077D7FF /* InfoPlist.strings */,
+				D49F07C91822ACFE0077D7FF /* main.m */,
+				D49F07CB1822ACFE0077D7FF /* harrypotter-Prefix.pch */,
+				D49F07CF1822ACFE0077D7FF /* Default.png */,
+				D49F07D11822ACFE0077D7FF /* Default@2x.png */,
+				D49F07D31822ACFE0077D7FF /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D49F07B91822ACFE0077D7FF /* harrypotter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D49F07E01822ACFE0077D7FF /* Build configuration list for PBXNativeTarget "harrypotter" */;
+			buildPhases = (
+				D49F07B61822ACFE0077D7FF /* Sources */,
+				D49F07B71822ACFE0077D7FF /* Frameworks */,
+				D49F07B81822ACFE0077D7FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = harrypotter;
+			productName = harrypotter;
+			productReference = D49F07BA1822ACFE0077D7FF /* harrypotter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D49F07B21822ACFE0077D7FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MAD;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Rob Denton";
+			};
+			buildConfigurationList = D49F07B51822ACFE0077D7FF /* Build configuration list for PBXProject "harrypotter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D49F07B11822ACFE0077D7FF;
+			productRefGroup = D49F07BB1822ACFE0077D7FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D49F07B91822ACFE0077D7FF /* harrypotter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D49F07B81822ACFE0077D7FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D49F07C81822ACFE0077D7FF /* InfoPlist.strings in Resources */,
+				D49F07D01822ACFE0077D7FF /* Default.png in Resources */,
+				D49F07D21822ACFE0077D7FF /* Default@2x.png in Resources */,
+				D49F07D41822ACFE0077D7FF /* Default-568h@2x.png in Resources */,
+				D49F07D71822ACFE0077D7FF /* MainStoryboard.storyboard in Resources */,
+				D49F07E41822AD410077D7FF /* harrypotter.plist in Resources */,
+				D49F07E61822BC060077D7FF /* hp@2x.png in Resources */,
+				D49F07E81822BC090077D7FF /* hp.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D49F07B61822ACFE0077D7FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D49F07CA1822ACFE0077D7FF /* main.m in Sources */,
+				D49F07CE1822ACFE0077D7FF /* MADAppDelegate.m in Sources */,
+				D49F07DA1822ACFE0077D7FF /* MADMasterViewController.m in Sources */,
+				D49F07DD1822ACFE0077D7FF /* MADDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D49F07C61822ACFE0077D7FF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D49F07C71822ACFE0077D7FF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D49F07D51822ACFE0077D7FF /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D49F07D61822ACFE0077D7FF /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D49F07DE1822ACFE0077D7FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D49F07DF1822ACFE0077D7FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D49F07E11822ACFE0077D7FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "harrypotter/harrypotter-Prefix.pch";
+				INFOPLIST_FILE = "harrypotter/harrypotter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D49F07E21822ACFE0077D7FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "harrypotter/harrypotter-Prefix.pch";
+				INFOPLIST_FILE = "harrypotter/harrypotter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D49F07B51822ACFE0077D7FF /* Build configuration list for PBXProject "harrypotter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D49F07DE1822ACFE0077D7FF /* Debug */,
+				D49F07DF1822ACFE0077D7FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D49F07E01822ACFE0077D7FF /* Build configuration list for PBXNativeTarget "harrypotter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D49F07E11822ACFE0077D7FF /* Debug */,
+				D49F07E21822ACFE0077D7FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D49F07B21822ACFE0077D7FF /* Project object */;
+}
