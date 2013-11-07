@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="4">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--First View Controller - First-->
+        <scene sceneID="11">
+            <objects>
+                <viewController title="First" id="2" customClass="MADFirstViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="16">
+                        <rect key="frame" x="0.0" y="20" width="320" height="499"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Rob Denton" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="20">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="lli-hc-dFO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" minimumZoomScale="0.0" maximumZoomScale="0.0" bouncesZoom="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="21">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="63" id="Iqg-9u-GRy"/>
+                                </constraints>
+                                <string key="text">Rob is a senior news-editorial journalism major and the editor-in-chief of the CU Independent. He enjoys a good breakfast, web development, riding his bike and watching Batman movies.</string>
+                                <fontDescription key="fontDescription" type="system" size="system"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textView>
+                            <textView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" delaysContentTouches="NO" canCancelContentTouches="NO" minimumZoomScale="0.0" maximumZoomScale="0.0" bouncesZoom="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JpA-cP-5zL">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="217" id="Vhb-gK-K0e"/>
+                                    <constraint firstAttribute="height" constant="101" id="qiL-YD-zC6"/>
+                                </constraints>
+                                <string key="text">He is Colorado native who loves to spend time outdoors and other Colorado things like mountains and South Park (both the show and the actual town).</string>
+                                <fontDescription key="fontDescription" type="system" size="system"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="RobDentonScripps-300x200.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="aGm-y5-YMM">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="244" id="fbb-wB-uq4"/>
+                                    <constraint firstAttribute="height" constant="162" id="xVb-ub-mhR"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="20" firstAttribute="top" secondItem="16" secondAttribute="top" type="default" id="3dJ-kS-UAc"/>
+                            <constraint firstItem="aGm-y5-YMM" firstAttribute="bottom" secondItem="16" secondAttribute="bottom" type="default" id="8Jh-zH-bcH"/>
+                            <constraint firstItem="21" firstAttribute="leading" secondItem="16" secondAttribute="leading" type="default" id="KpM-1e-bmE"/>
+                            <constraint firstAttribute="trailing" secondItem="20" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="Qxj-1L-2Yh"/>
+                            <constraint firstItem="20" firstAttribute="leading" secondItem="16" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Ty9-wx-CyI"/>
+                            <constraint firstItem="JpA-cP-5zL" firstAttribute="top" secondItem="21" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="WfX-QU-mt3"/>
+                            <constraint firstItem="21" firstAttribute="top" secondItem="16" secondAttribute="top" constant="27" id="ecZ-qh-TpG"/>
+                            <constraint firstItem="JpA-cP-5zL" firstAttribute="leading" secondItem="16" secondAttribute="leading" type="default" id="fbf-kJ-t1i"/>
+                            <constraint firstAttribute="trailing" secondItem="aGm-y5-YMM" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="oI9-3T-KKS"/>
+                            <constraint firstItem="21" firstAttribute="trailing" secondItem="16" secondAttribute="trailing" type="default" id="xqr-xX-0Sm"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="About" image="face50.png" id="7"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="10" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="653" y="-138"/>
+        </scene>
+        <!--Second View Controller - Second-->
+        <scene sceneID="13">
+            <objects>
+                <viewController title="Second" id="3" customClass="MADSecondViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="17">
+                        <rect key="frame" x="0.0" y="20" width="320" height="499"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="rca.png" translatesAutoresizingMaskIntoConstraints="NO" id="9IX-8f-VCI">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="145" id="MWQ-9H-XI2"/>
+                                    <constraint firstAttribute="width" constant="220" id="hTr-MB-gtn"/>
+                                </constraints>
+                            </imageView>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="orc-eU-RR9">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="286" id="BpI-90-0ZD"/>
+                                    <constraint firstAttribute="height" constant="216" id="K9z-o5-ob7"/>
+                                </constraints>
+                            </pickerView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Portfolio" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="iNu-GI-ToE">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="27" id="p1A-NI-suG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="9IX-8f-VCI" firstAttribute="leading" secondItem="17" secondAttribute="leading" type="default" id="7K1-kD-62L"/>
+                            <constraint firstItem="iNu-GI-ToE" firstAttribute="top" secondItem="17" secondAttribute="top" constant="3" id="FyE-uL-5CS"/>
+                            <constraint firstItem="orc-eU-RR9" firstAttribute="bottom" secondItem="17" secondAttribute="bottom" type="default" id="PDz-7H-eIq"/>
+                            <constraint firstAttribute="trailing" secondItem="iNu-GI-ToE" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="f7D-Vx-bIY"/>
+                            <constraint firstItem="orc-eU-RR9" firstAttribute="trailing" secondItem="17" secondAttribute="trailing" type="default" id="fv7-Dk-aus"/>
+                            <constraint firstItem="iNu-GI-ToE" firstAttribute="leading" secondItem="17" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="jVh-Mt-DdR"/>
+                            <constraint firstItem="9IX-8f-VCI" firstAttribute="top" secondItem="17" secondAttribute="top" constant="45" id="z7u-7J-zF9"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Portfolio" image="port50.png" id="6"/>
+                    <connections>
+                        <outlet property="imageContainer" destination="9IX-8f-VCI" id="OcV-w4-Qgr"/>
+                        <outlet property="picker" destination="orc-eU-RR9" id="aEh-YR-a1T"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="12" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="881" y="524"/>
+        </scene>
+        <!--Third View Controller - Work-->
+        <scene sceneID="SaH-NJ-omT">
+            <objects>
+                <viewController id="m1o-CE-pV1" customClass="MADThirdViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5LM-dg-5w4">
+                        <rect key="frame" x="0.0" y="20" width="320" height="499"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u93-ri-0BT">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="VJp-lj-D9S"/>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="u93-ri-0BT" firstAttribute="trailing" secondItem="5LM-dg-5w4" secondAttribute="trailing" type="default" id="9wj-Tz-IBj"/>
+                            <constraint firstItem="u93-ri-0BT" firstAttribute="bottom" secondItem="5LM-dg-5w4" secondAttribute="bottom" type="default" id="Bvn-cy-9y9"/>
+                            <constraint firstItem="VJp-lj-D9S" firstAttribute="centerX" secondItem="u93-ri-0BT" secondAttribute="centerX" type="default" id="bgq-mA-dkS"/>
+                            <constraint firstItem="u93-ri-0BT" firstAttribute="top" secondItem="5LM-dg-5w4" secondAttribute="top" type="default" id="k5M-XW-hNO"/>
+                            <constraint firstItem="u93-ri-0BT" firstAttribute="leading" secondItem="5LM-dg-5w4" secondAttribute="leading" type="default" id="vpL-6h-kGE"/>
+                            <constraint firstItem="VJp-lj-D9S" firstAttribute="top" secondItem="5LM-dg-5w4" secondAttribute="top" constant="240" id="ywZ-7z-I3k"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Work" image="globe50.png" id="VAu-Xo-qKe"/>
+                    <connections>
+                        <outlet property="spin" destination="VJp-lj-D9S" id="vlm-hM-J1U"/>
+                        <outlet property="webView" destination="u93-ri-0BT" id="79d-cv-ESj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="O7M-s3-DXi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="656" y="1198"/>
+        </scene>
+        <!--Fourth View Controller - Contact-->
+        <scene sceneID="gtT-77-2uf">
+            <objects>
+                <viewController id="x5Q-7B-CzT" customClass="MADFourthViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ibB-Fj-JOH">
+                        <rect key="frame" x="0.0" y="20" width="320" height="499"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kfx-jl-FUL">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="202" id="R4e-8x-ACK"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="robert.denton9@gmail.com">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="sendMail:" destination="x5Q-7B-CzT" eventType="touchUpInside" id="M7u-Qa-ONZ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="Contact" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="35g-vT-wbM">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="35g-vT-wbM" firstAttribute="centerX" secondItem="kfx-jl-FUL" secondAttribute="centerX" type="default" id="Ux4-dh-ZB9"/>
+                            <constraint firstItem="kfx-jl-FUL" firstAttribute="centerY" secondItem="ibB-Fj-JOH" secondAttribute="centerY" type="default" id="Zb2-F4-BOL"/>
+                            <constraint firstItem="35g-vT-wbM" firstAttribute="top" secondItem="ibB-Fj-JOH" secondAttribute="top" type="default" id="gDD-Iq-AU3"/>
+                            <constraint firstAttribute="trailing" secondItem="35g-vT-wbM" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="l9J-N8-Z3j"/>
+                            <constraint firstItem="35g-vT-wbM" firstAttribute="leading" secondItem="ibB-Fj-JOH" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="pui-F0-cMV"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Contact" image="envel50.png" id="CMc-QX-iTF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lro-6O-sdB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="921" y="1909"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="15">
+            <objects>
+                <tabBarController id="4" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="5">
+                        <rect key="frame" x="0.0" y="431" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="2" kind="relationship" relationship="viewControllers" id="26"/>
+                        <segue destination="3" kind="relationship" relationship="viewControllers" id="27"/>
+                        <segue destination="m1o-CE-pV1" kind="relationship" relationship="viewControllers" id="i3L-Ss-bxs"/>
+                        <segue destination="x5Q-7B-CzT" kind="relationship" relationship="viewControllers" id="3i5-fh-hpZ"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="14" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-764" y="900"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="RobDentonScripps-300x200.jpg" width="300" height="200"/>
+        <image name="envel50.png" width="50" height="50"/>
+        <image name="face50.png" width="50" height="50"/>
+        <image name="globe50.png" width="50" height="50"/>
+        <image name="port50.png" width="50" height="50"/>
+        <image name="rca.png" width="800" height="533"/>
+    </resources>
+    <classes>
+        <class className="MADFirstViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MADFirstViewController.h"/>
+        </class>
+        <class className="MADFourthViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MADFourthViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="sendMail:"/>
+            </relationships>
+        </class>
+        <class className="MADSecondViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MADSecondViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="imageContainer" candidateClass="UIImageView"/>
+                <relationship kind="outlet" name="picker" candidateClass="UIPickerView"/>
+            </relationships>
+        </class>
+        <class className="MADThirdViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MADThirdViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="spin" candidateClass="UIActivityIndicatorView"/>
+                <relationship kind="outlet" name="webView" candidateClass="UIWebView"/>
+            </relationships>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
